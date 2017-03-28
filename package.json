@@ -1,0 +1,14 @@
+{
+  "name": "epl-plugin",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "epl-scripts start",
+    "test": "epl-scripts test",
+    "eject": "epl-scripts eject",
+    "build": "epl-scripts build"
+  },
+  "dependencies": {
+    "epl-scripts": "file:../epl-scripts"
+  }
+}
