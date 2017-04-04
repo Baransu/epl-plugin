@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "license": "Apache-2.0",
   "scripts": {
+    "post-build": "git add ./build",
     "start": "epl-scripts start",
     "test": "epl-scripts test",
     "eject": "epl-scripts eject",
@@ -16,7 +17,8 @@
     "styled-components": "^1.4.4"
   },
   "pre-commit": [
-    "build"
+    "build",
+    "post-build"
   ],
   "devDependencies": {
     "pre-commit": "^1.2.2"
