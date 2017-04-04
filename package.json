@@ -9,6 +9,16 @@
     "build": "epl-scripts build"
   },
   "dependencies": {
-    "epl-scripts": "file:../epl-scripts"
+    "epl-scripts": "file:../epl-scripts",
+    "react": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "styled-components": "^1.4.4"
+  },
+  "pre-commit": [
+    "build"
+  ],
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
   }
 }
